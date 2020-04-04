@@ -1,0 +1,27 @@
+body {
+    align-items: center;
+    background-color: #FEE4C4;
+    display: flex;
+    flex-direction: column;
+}
+#messages {
+    background-color: #5A809E;
+    border-radius: 5px;
+    border: 5px solid #6CC2BD;
+    color: white;
+    flex: 1 1 300px;
+    margin: 10px;
+    max-width: 800px;
+    min-height: 300px;
+    min-width: 800px;
+    padding: 10px;
+}
+#buttons > button {
+    background-color: #7C79A2;
+    border-radius: 5px;
+    color: white;
+    flex: 1 1 auto;
+    font-size: large;
+    margin: 10px;
+    padding: 10px;
+}
