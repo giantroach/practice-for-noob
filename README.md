@@ -28,7 +28,9 @@ When player clicks `Next` button this function will be called.
 
 ### Example
 
+```javascript
 message('You decided to go for travel!', showChoosePathDialog);
+```
 
 
 ## dialog(msg, yesFunc, noFunc)
@@ -51,8 +53,9 @@ When player clicks `No` button this function will be called.
 
 ### Example
 
+```javascript
 message('Do you want to eat this apple?', showGameover, showStarveMessage);
-
+```
 
 
 ## end(msg, restartFunc)
@@ -70,8 +73,25 @@ When player clicks `Restart` button this function will be called.
 
 ### Example
 
+```javascript
 end('Congraturations, you win the game!', showIntroMessage);
+```
 
+
+## random()
+
+Returns `true` or `false` randomly (50% - 50%).
+Useful by combining with `if`.
+
+### Example
+
+```javascript
+if (random()) {
+  // do something
+} else {
+  // do something
+}
+```
 
 
 # Disclaimer

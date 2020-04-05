@@ -39,3 +39,8 @@ function end(msg, restartFunc) {
   restartBtn.onclick = restartFunc;
   btnsElm.appendChild(restartBtn);
 }
+
+// randomly returning true or false
+function random(percent = 0.5) {
+  return Math.random() < percent;
+}
